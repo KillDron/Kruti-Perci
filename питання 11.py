@@ -1,3 +1,3 @@
 import random
-a = random.randint(1,10)
-print(a)
+a = random.randint(1,1000)
+print(float(a/100))
