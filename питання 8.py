@@ -1,5 +1,8 @@
 from datetime import date
-f_date = date(2014, 7, 2)
-l_date = date(2014, 7, 11)
+Y = int(input())
+M = int(input())
+D = int(input())
+f_date = date(Y, M, D)
+l_date = date(2021, 9, 13)
 delta = l_date - f_date
-print(delta.days)
+print(delta)
