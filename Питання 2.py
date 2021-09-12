@@ -1,4 +1,4 @@
-import random
-x = random.random(1,50)
-y = random.random(2,5)
-print(x**y)
+a = 3
+b = 5/8
+print(int(a+b))
+print(float(a+b))
