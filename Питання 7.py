@@ -1,4 +1,4 @@
-a = (int(input('Price of the meal:')))
-b = (int(input('Percentage on tip:')))
-print('Tips:', (b*(a/100)))
-print('Total:', a+(b*(a/100)))
+import random
+x = random.random(1,50)
+y = random.random(2,5)
+print(x**y)
