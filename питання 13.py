@@ -1,4 +1,2 @@
 import math
-a = (int(input("Введіть кут:")))
-y = math.sin(a)
-print(y)
+print(round(math.sin((float(input("Введіть кут:")))*0.017453),4))
