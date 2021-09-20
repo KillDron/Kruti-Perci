@@ -1,2 +1,3 @@
 import random
-print(random.randint(1,11))
+A = random.randint(1000,9999)
+print(A/100)
